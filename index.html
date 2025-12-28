@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NexoIT — Soporte y Mantenimiento para Emprendimientos</title>
+  <meta name="description" content="Soporte IT para emprendedores y microempresas. Planes mensuales, urgencias, mantenimiento y seguridad. Respuesta rápida y soluciones claras." />
+  <meta name="theme-color" content="#0b1220" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Tipografía elegante y legible -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <!-- Topbar -->
+  <header class="topbar" id="top">
+    <div class="container topbar__inner">
+      <img src="assets/logo.png" alt="NexoIT" class="brand__logo" />
+
+      <nav class="nav" aria-label="Navegación principal">
+        <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu">
+          <span class="sr-only">Abrir menú</span>
+          <span class="nav__burger" aria-hidden="true"></span>
+        </button>
+
+        <div class="nav__menu" id="navMenu">
+          <a href="#servicios">Servicios</a>
+          <a href="#planes">Planes</a>
+          <a href="#casos">Casos</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contacto" class="btn btn--sm btn--primary">Contacto</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main>
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <p class="badge">Soporte IT para emprendedores • remoto + on-site (ficticio)</p>
+          <h1>Tu negocio no puede frenarse por “cosas de la compu”.</h1>
+          <p class="lead">
+            Mantenimiento preventivo, urgencias, seguridad y optimización.
+            Planes mensuales claros, respuesta rápida y soluciones sin vueltas.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="#planes">Ver planes</a>
+            <a class="btn btn--ghost" href="#contacto">Pedir diagnóstico</a>
+          </div>
+
+          <dl class="kpis" role="list">
+            <div class="kpi">
+              <dt>Respuesta</dt>
+              <dd>&lt; 2h (según plan)</dd>
+            </div>
+            <div class="kpi">
+              <dt>Enfoque</dt>
+              <dd>Emprendimientos</dd>
+            </div>
+            <div class="kpi">
+              <dt>Objetivo</dt>
+              <dd>Menos caídas</dd>
+            </div>
+          </dl>
+
+          <p class="mini-note">
+            * Proyecto ficticio para portfolio. Textos, marcas y métricas son demostrativas.
+          </p>
+        </div>
+
+        <div class="hero__card" aria-label="Panel resumen">
+          <div class="panel">
+            <div class="panel__top">
+              <div class="panel__dot" aria-hidden="true"></div>
+              <div class="panel__dot" aria-hidden="true"></div>
+              <div class="panel__dot" aria-hidden="true"></div>
+              <span class="panel__title">Estado de tu IT (demo)</span>
+            </div>
+
+            <div class="panel__body">
+              <div class="stat">
+                <span class="stat__label">Backups</span>
+                <span class="pill pill--ok">OK</span>
+              </div>
+              <div class="stat">
+                <span class="stat__label">Actualizaciones</span>
+                <span class="pill pill--warn">Pendientes</span>
+              </div>
+              <div class="stat">
+                <span class="stat__label">Seguridad</span>
+                <span class="pill pill--ok">Protegido</span>
+              </div>
+
+              <div class="divider"></div>
+
+              <p class="muted">
+                “Te armamos un sistema simple: que funcione, que sea seguro y que no te saque tiempo.”
+              </p>
+
+              <a class="btn btn--sm btn--primary w-100" href="#contacto">Quiero ordenarlo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero__bg" aria-hidden="true">
+      <img src="assets/hero.png" alt="" />
+      </div>
+    </section>
+
+    <!-- Servicios -->
+    <section class="section" id="servicios">
+      <div class="container">
+        <div class="section__head">
+          <h2>Servicios</h2>
+          <p class="muted">Todo lo esencial para que tu operación sea estable, rápida y segura.</p>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <img src="assets/maintenance.png" alt="" class="card__icon" />
+            <h3>Mantenimiento preventivo</h3>
+            <p>Chequeos, limpieza lógica, salud del sistema, actualizaciones y mejora de rendimiento.</p>
+            <ul class="list">
+              <li>Windows / herramientas</li>
+              <li>Optimización de inicio</li>
+              <li>Revisión de espacio y disco</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <img src="assets/support.png" alt="" class="card__icon" />
+            <h3>Urgencias & soporte</h3>
+            <p>Cuando “algo se rompió”, resolvemos rápido para que vuelvas a vender o trabajar.</p>
+            <ul class="list">
+              <li>Errores, lentitud, caídas</li>
+              <li>Impresoras / red</li>
+              <li>Asistencia remota</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <img src="assets/security.png" alt="" class="card__icon" />
+            <h3>Seguridad básica</h3>
+            <p>Lo mínimo indispensable para no perder datos ni exponerte por descuidos comunes.</p>
+            <ul class="list">
+              <li>Backups + verificación</li>
+              <li>Antimalware</li>
+              <li>Buenas prácticas</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <img src="assets/backup.png" alt="" class="card__icon" />
+            <h3>Setups & migraciones</h3>
+            <p>Te dejamos el sistema prolijo: cuentas, nube, correo, herramientas y accesos ordenados.</p>
+            <ul class="list">
+              <li>Google Workspace / Microsoft</li>
+              <li>Drive / OneDrive</li>
+              <li>Permisos y usuarios</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Planes -->
+    <section class="section section--alt" id="planes">
+      <div class="container">
+        <div class="section__head">
+          <h2>Planes mensuales</h2>
+          <p class="muted">Elegí un plan y dejá de apagar incendios. Precios demostrativos.</p>
+        </div>
+
+        <div class="pricing">
+          <article class="price">
+            <header class="price__head">
+              <h3>Base</h3>
+              <p class="muted">Para emprendedores</p>
+            </header>
+            <p class="price__value"><span>$</span>49<span class="price__unit">/mes</span></p>
+            <ul class="list">
+              <li>Soporte remoto (2 tickets)</li>
+              <li>1 checklist mensual</li>
+              <li>Backups guiados</li>
+            </ul>
+            <button class="btn btn--primary w-100 js-select-plan" data-plan="Base" data-price="49">
+              Elegir Base
+            </button>
+          </article>
+
+          <article class="price price--featured" aria-label="Plan recomendado">
+            <div class="ribbon">Recomendado</div>
+            <header class="price__head">
+              <h3>Pro</h3>
+              <p class="muted">Para microempresas</p>
+            </header>
+            <p class="price__value"><span>$</span>89<span class="price__unit">/mes</span></p>
+            <ul class="list">
+              <li>Soporte remoto (5 tickets)</li>
+              <li>Monitoreo básico</li>
+              <li>Backups + verificación</li>
+              <li>Prioridad 24–48h</li>
+            </ul>
+            <button class="btn btn--primary w-100 js-select-plan" data-plan="Pro" data-price="89">
+              Elegir Pro
+            </button>
+          </article>
+
+          <article class="price">
+            <header class="price__head">
+              <h3>Empresa</h3>
+              <p class="muted">Para equipos</p>
+            </header>
+            <p class="price__value"><span>$</span>149<span class="price__unit">/mes</span></p>
+            <ul class="list">
+              <li>Soporte remoto (ilimitado razonable)</li>
+              <li>SLA preferencial</li>
+              <li>Políticas de seguridad</li>
+              <li>Onboarding + documentación</li>
+            </ul>
+            <button class="btn btn--primary w-100 js-select-plan" data-plan="Empresa" data-price="149">
+              Elegir Empresa
+            </button>
+          </article>
+        </div>
+
+        <!-- Mini calculadora demo -->
+        <div class="calculator">
+          <div class="calculator__head">
+            <h3>Calculadora rápida (demo)</h3>
+            <p class="muted">Simulá costo estimado según cantidad de equipos y urgencias.</p>
+          </div>
+
+          <form class="calculator__grid" id="calcForm">
+            <label class="field">
+              <span>Equipos (PCs / laptops)</span>
+              <input type="number" id="calcDevices" min="1" max="50" value="3" />
+            </label>
+
+            <label class="field">
+              <span>Urgencias al mes</span>
+              <input type="number" id="calcUrgencies" min="0" max="20" value="1" />
+            </label>
+
+            <label class="field">
+              <span>Plan</span>
+              <select id="calcPlan">
+                <option value="Base" selected>Base</option>
+                <option value="Pro">Pro</option>
+                <option value="Empresa">Empresa</option>
+              </select>
+            </label>
+
+            <div class="calc__result" role="status" aria-live="polite">
+              <div>
+                <span class="muted">Estimado:</span>
+                <strong id="calcOutput">$0/mes</strong>
+              </div>
+              <button class="btn btn--ghost" type="submit">Recalcular</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Casos -->
+    <section class="section" id="casos">
+      <div class="container">
+        <div class="section__head">
+          <h2>Casos (ficticios)</h2>
+          <p class="muted">Ejemplos para mostrar el tipo de mejora y el proceso de trabajo.</p>
+        </div>
+
+        <div class="cases">
+          <article class="case">
+            <h3>Panadería “La Espiga”</h3>
+            <p class="muted">Se caía el sistema de facturación y perdían ventas.</p>
+            <ul class="list">
+              <li>Orden de red + backups automáticos</li>
+              <li>Optimización de equipos</li>
+              <li>Checklist mensual</li>
+            </ul>
+            <p class="tag">Resultado: menos interrupciones</p>
+          </article>
+
+          <article class="case">
+            <h3>Estudio creativo “Lumen”</h3>
+            <p class="muted">Archivos duplicados y pérdidas de trabajo por mala organización.</p>
+            <ul class="list">
+              <li>Migración a nube + permisos</li>
+              <li>Estructura de carpetas</li>
+              <li>Guía rápida para el equipo</li>
+            </ul>
+            <p class="tag">Resultado: flujo más rápido</p>
+          </article>
+
+          <article class="case">
+            <h3>Consultorio “Salud Norte”</h3>
+            <p class="muted">Actualizaciones pendientes y riesgo de seguridad.</p>
+            <ul class="list">
+              <li>Parcheo + hardening básico</li>
+              <li>Antimalware y políticas</li>
+              <li>Backups verificados</li>
+            </ul>
+            <p class="tag">Resultado: operación más segura</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section--alt" id="faq">
+      <div class="container">
+        <div class="section__head">
+          <h2>Preguntas frecuentes</h2>
+          <p class="muted">Respuestas cortas y claras, como debe ser.</p>
+        </div>
+
+        <div class="faq" id="faqList">
+          <details class="faq__item">
+            <summary>¿Trabajan remoto o presencial?</summary>
+            <p>Ambos (demo). La mayoría se resuelve remoto; si hace falta, coordinamos visita.</p>
+          </details>
+
+          <details class="faq__item">
+            <summary>¿Qué incluye el mantenimiento preventivo?</summary>
+            <p>Revisión general, actualizaciones, limpieza lógica, chequeo de almacenamiento, y recomendaciones para evitar problemas típicos.</p>
+          </details>
+
+          <details class="faq__item">
+            <summary>¿Puedo pagar solo por urgencias?</summary>
+            <p>Sí. Pero el plan mensual suele salir más barato que vivir apagando incendios.</p>
+          </details>
+
+          <details class="faq__item">
+            <summary>¿Qué pasa si se rompe algo grave?</summary>
+            <p>Se diagnostica, se plantea plan de acción y se prioriza recuperación de datos y continuidad del negocio.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="section" id="contacto">
+      <div class="container contact">
+        <div class="contact__copy">
+          <h2>Contacto</h2>
+          <p class="muted">Dejá tus datos y te respondemos con un diagnóstico inicial (demo).</p>
+
+          <div class="contact__meta">
+            <div class="meta">
+              <span class="meta__k">Email</span>
+              <span class="meta__v">
+                <button class="linklike" type="button" id="copyEmail" data-copy="hola@nexoit.demo">hola@nexoit.demo</button>
+                <small class="muted" id="copyHint">Click para copiar</small>
+              </span>
+            </div>
+            <div class="meta">
+              <span class="meta__k">Horarios</span>
+              <span class="meta__v">Lun a Vie • 9:00 a 18:00</span>
+            </div>
+          </div>
+
+          <a class="btn btn--primary" id="whatsappBtn" href="#" rel="noopener">WhatsApp (demo)</a>
+        </div>
+
+        <form class="form" id="contactForm">
+          <label class="field">
+            <span>Nombre</span>
+            <input type="text" id="name" placeholder="Tu nombre" required />
+          </label>
+
+          <label class="field">
+            <span>Email</span>
+            <input type="email" id="email" placeholder="tunombre@email.com" required />
+          </label>
+
+          <label class="field">
+            <span>¿Qué necesitás?</span>
+            <select id="topic" required>
+              <option value="" selected disabled>Elegí una opción</option>
+              <option>Soporte urgente</option>
+              <option>Mantenimiento mensual</option>
+              <option>Seguridad / backups</option>
+              <option>Ordenar nube y cuentas</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span>Mensaje</span>
+            <textarea id="message" rows="5" placeholder="Contame un poquito el problema o lo que querés mejorar..." required></textarea>
+          </label>
+
+          <div class="form__actions">
+            <button class="btn btn--primary" type="submit">Enviar</button>
+            <p class="muted" id="formStatus" role="status" aria-live="polite"></p>
+          </div>
+
+          <p class="mini-note">
+            Este formulario es demo: no envía a servidor. Genera un texto listo para WhatsApp / mail.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year"></span> NexoIT — Proyecto ficticio para portfolio.</p>
+      <a class="link" href="#top">Volver arriba</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
